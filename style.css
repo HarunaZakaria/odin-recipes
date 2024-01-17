@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+.container h1 {
+  color: gray;
+}
+ul li {
+  padding: 10px;
+}
+ul li a {
+  text-decoration: none;
+}
