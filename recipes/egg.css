@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-bottom: 50px;
+}
+.header {
+  text-align: center;
+  font-size: 25px;
+  color: brown;
+}
+img {
+  width: 500px;
+  height: 350px;
+  margin-left: 400px;
+}
+.content h2,
+p {
+  text-align: center;
+}
+.content p {
+  font-size: 18px;
+}
+.ingre-steps {
+  display: flex;
+  justify-content: space-around;
+}
+.steps,
+.ingredience {
+  background-color: bisque;
+  width: 400px;
+  height: auto;
+  border: 1px solid #dac6c6;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+.steps h3,
+.ingredience h3 {
+  text-align: center;
+  font-size: 24px;
+  color: brown;
+}
+ul li {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
