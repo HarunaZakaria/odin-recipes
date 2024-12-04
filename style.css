@@ -7,12 +7,24 @@
     display: flex;
     justify-content: space-between;
     padding: 25px;
-    background-color: rgb(54, 143, 54);
+    background-color: rgb(48, 117, 48);
     align-content: center;
+}
+.header h1 {
+    color: white;
 }
 .navMenu ul{
     display: flex;
 }
 .navMenu ul li{
     margin: 20px;
+    list-style: none;
+}
+.navMenu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navMenu ul li a:hover{
+    color: black;
 }
