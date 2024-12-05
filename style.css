@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 .header{
     display: flex;
@@ -27,4 +28,28 @@
 }
 .navMenu ul li a:hover{
     color: black;
+}
+main{
+    width: auto;
+    height: 800px;
+    margin: 30px;
+}
+.parag{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+#foodItems ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.eachFood img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.eachFood li{
+    list-style: none;
+}
+.eachFood li a{
+    font-size: 20px;
 }
