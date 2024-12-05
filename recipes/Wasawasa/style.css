@@ -1,0 +1,8 @@
+header{
+    text-align: center;
+}
+main img {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+}
