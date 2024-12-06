@@ -1,8 +1,18 @@
-header{
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.container h1 {
     text-align: center;
 }
-main img {
-    width: 250px;
-    height: auto;
-    border-radius: 15px;
+.header img{
+    width: 350px;
+    height: 300px;
+}
+.image-para {
+    display: flex;
+    gap:10px;
+}
+.image-para p{
+    text-align:center ;
 }
