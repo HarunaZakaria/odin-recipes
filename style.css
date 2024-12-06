@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -52,6 +56,9 @@ main{
 }
 .eachFood li a{
     font-size: 20px;
+}
+.eachFood li a:hover{
+    color: red;
 }
 footer{
     background-color: rgb(48, 117, 48);

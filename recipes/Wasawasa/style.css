@@ -1,3 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: rgb(48, 117, 48);
+    align-content: center;
+}
+.header h1 {
+    color: white;
+}
+.navMenu ul{
+    display: flex;
+}
+.navMenu ul li{
+    margin: 20px;
+    list-style: none;
+}
+.navMenu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navMenu ul li a:hover{
+    color: black;
+}
 .container {
     width: 90%;
     margin: 0 auto;
@@ -5,14 +30,35 @@
 .container h1 {
     text-align: center;
 }
-.header img{
+ img{
     width: 350px;
     height: 300px;
+    border: 3px solid green;
+    border-radius: 10px;
 }
 .image-para {
     display: flex;
     gap:10px;
 }
 .image-para p{
-    text-align:center ;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.ingredients h3, .directions h3 {
+   font-size: 25px;
+}
+.ingredients li, .directions li{
+    padding: 5px;
+    font-size: 20px;
+}
+main{
+    margin-bottom: 40px;
+}
+footer{
+    background-color: rgb(48, 117, 48);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
 }
