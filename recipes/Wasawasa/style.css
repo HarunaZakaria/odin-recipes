@@ -1,9 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .header{
     display: flex;
     justify-content: space-between;
     padding: 25px;
     background-color: rgb(48, 117, 48);
     align-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 .header h1 {
     color: white;
@@ -29,6 +37,8 @@
 }
 .container h1 {
     text-align: center;
+    margin-top: 150px;
+
 }
  img{
     width: 350px;

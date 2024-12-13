@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
 }
 .container{
     width: 90%;
@@ -44,7 +45,7 @@ main{
 .parag{
     font-size: 25px;
     padding-bottom: 20px;
-    margin-top: 130px;
+    margin-top: 150px;
 }
 #foodItems ul{
     display: flex;
@@ -69,6 +70,6 @@ footer{
     text-align: center;
     padding: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
 }
