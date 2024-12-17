@@ -5,38 +5,54 @@
     font-family: 'Times New Roman', Times, serif;
     line-height: 2;
 }
-.container{
+#header{
+    color: #fff;
+    background-color: green;
+    padding: 3% 15%;
+
+}
+.tittle-image{
     width: 90%;
-    margin: 0 auto;
+    border-radius: 1rem;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
+
+/* Navigations Bar */
+.navbar{
+    margin: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* Food section */
+.food-items{
+    margin: 7% 15%;
+}
+.food-image{
     width: 100%;
-    background-color: rgb(48, 117, 48);
-    align-content: center;
-    position: fixed;
-    top: 0;
+    height: 250px;
+    border-radius: 0.5rem;
 }
-.header h1 {
-    color: white;
-}
-.navMenu ul{
-    display: flex;
-}
-.navMenu ul li{
-    margin: 20px;
-    list-style: none;
-}
-.navMenu ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-.navMenu ul li a:hover{
-    color: black;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 main{
     width: auto;
     height: 800px;
